@@ -1,0 +1,21 @@
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./utils/placeholders";
+
+@import "./base/base";
+@import "./base/reset";
+@import "./base/fonts";
+@import "./base/modern";
+
+@import "./components/container";
+@import "./components/button";
+@import "./components/header";
+@import "./components/logo";
+@import "./components/footer";
+@import "./components/social-link";
+
+@import "./layout/find-a-gift";
+@import "./layout/gift-for-all";
+@import "./layout/how-we-work";
+@import "./layout/ours-best-blogs";
+@import "./layout/ready-to-get";
