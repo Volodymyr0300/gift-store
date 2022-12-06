@@ -17,127 +17,237 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <nav class="header__nav">
-          <a href="" class="header__logo">logo</a>
-          <ul class="header__list">
-            <li class="header__item">
-              <a href="" class="header__link">Home</a>
-            </li>
-            <li class="header__item">
-              <a href="" class="header__link">About Us</a>
-            </li>
-            <li class="header__item">
-              <a href="" class="header__link">Services</a>
-            </li>
-            <li class="header__item">
-              <a href="" class="header__link">Blogs</a>
-            </li>
-          </ul>
-          <button class="header-button" type="button">Gift Finder</button>
-        </nav>
+      <div class="container header__container">
+        <a href="" class="header__link-logo logo">
+          <svg class="header__logo" width="41" height="39">
+            <use href="./img/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="" class="header__link">Home</a>
+          </li>
+          <li class="header__item">
+            <a href="" class="header__link">About Us</a>
+          </li>
+          <li class="header__item">
+            <a href="" class="header__link">Services</a>
+          </li>
+          <li class="header__item">
+            <a href="" class="header__link">Blogs</a>
+          </li>
+        </ul>
+        <button class="header-button" type="button">Gift Finder</button>
       </div>
     </header>
-    <section class="find">
+    <main>
+      <section class="find">
+        <div class="container">
+          <ul class="find__list">
+            <li class="find__item">
+              <h1 class="find__title">
+                Find a gift for your wife or girlfriend
+              </h1>
+            </li>
+            <li class="find__item">
+              <p class="find__text">
+                Struggling to find a gift for your wife or girlfriend? No
+                problem!
+              </p>
+            </li>
+            <li class="find__item">
+              <button class="find__button" type="button">Find gift now</button>
+            </li>
+          </ul>
+          <img src="" alt="" />
+        </div>
+      </section>
+      <section class="how">
+        <div class="container">
+          <img src="" alt="" />
+          <ul class="how__list">
+            <li class="how__item">
+              <h3 class="how__title">How we work</h3>
+            </li>
+            <li class="how__item">
+              <p class="how__text">
+                We’ve actually already asked hundreds of women what they want,
+                and made a database with the results. All you have to do is take
+                our short survey that only takes seconds, and our proprietary
+                algorithm will match you with a few perfect gift options.
+              </p>
+            </li>
+            <li class="how__item">
+              <button class="how__button" type="button">Learn More</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="gift">
+        <div class="container">
+          <h3 class="gift__title">Gifts for all Occasions</h3>
+          <p class="gift__text">
+            “Try our web app to find the best gifts for all occasions”
+          </p>
+          <ul class="gift__list">
+            <li class="gift__item">
+              <img src="" alt="" class="gift__img" />
+              <p class="gift__text">Birthday</p>
+              <a href="" class="list__link">See More ›</a>
+            </li>
+            <li class="gift__item">
+              <img src="" alt="" class="gift__img" />
+              <p class="gift__text">Anniversary</p>
+              <a href="" class="gift__link">See More ›</a>
+            </li>
+            <li class="gift__item">
+              <img src="" alt="" class="gift__img" />
+              <p class="gift__text">Valentine's Day</p>
+              <a href="" class="gift__link">See More ›</a>
+            </li>
+            <li class="gift__item">
+              <img src="" alt="" class="gift__img" />
+              <p class="gift__text">Christmas</p>
+              <a href="" class="gift__link">See More ›</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="ready">
+        <div class="container">
+          <ul class="ready__list">
+            <li class="ready__item">
+              <h2 class="ready__title">Ready to get started?</h2>
+              <p class="ready__text">Sign up or contact us</p>
+            </li>
+            <li class="ready__item">
+              <button class="ready__first-button" type="button">
+                Find gift now
+              </button>
+              <button class="ready__second-button" type="button">
+                how it works
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="blog">
+        <div class="container">
+          <h3 class="blog__title">Our Best Blogs Ever</h3>
+          <p class="blog__text">
+            “Try our blog to find the best tips and tricks to select your gift”
+          </p>
+          <ul class="blog__list-best">
+            <li class="blog__item">
+              <img class="blog__img" src="" alt="" />
+            </li>
+            <li class="blog__item">
+              <ul class="blog__list-best">
+                <li class="blog__item-best">
+                  <p class="blog__text-best">Mr. John Doe</p>
+                </li>
+                <li class="blog__item-best">
+                  <h2 class="blog__title-best">
+                    The best way to wish your wife
+                  </h2>
+                </li>
+                <li class="blog__item-best">
+                  <a href="" class="blog__link-best">Read More</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="blog__list-database">
+            <li class="blog__item-database">
+              <h4 class="blog__title-database">
+                Database to find the gifts for your girlfriend
+              </h4>
+            </li>
+            <li class="blog__item-database">
+              <p class="blog__text-database">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore...
+              </p>
+            </li>
+            <li class="blog__item-database">
+              <a href="" class="blog__link-database">Read More</a>
+            </li>
+          </ul>
+          <ul class="blog__list-intelligence">
+            <li class="blog__item-intelligence">
+              <h4 class="blog__title-intelligence">
+                How Artificial Intelligence read your mind to find the best gift
+              </h4>
+            </li>
+            <li class="blog__item-intelligence">
+              <p class="blog__text-intelligence">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore...
+              </p>
+            </li>
+            <li class="blog__item-intelligence">
+              <a href="" class="blog__link-intelligence">Read More</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
       <div class="container">
-        <ul class="find__list">
-          <li class="find__item">
-            <h1 class="find__title">Find a gift for your wife or girlfriend</h1>
+        <ul class="footer__list1">
+          <li class="footer__item1">
+            <a class="footer__link" href="">Home</a>
           </li>
-          <li class="find__item">
-            <p class="find__text">
-              Struggling to find a gift for your wife or girlfriend? No problem!
-            </p>
-          </li>
-          <li class="find__item">
-            <button class="find__button" type="button">Find gift now</button>
+          <li class="footer__item1">
+            <a class="footer__link" href="">About</a>
           </li>
         </ul>
-        <img src="" alt="" />
-      </div>
-    </section>
-    <section class="how">
-      <div class="container">
-        <img src="" alt="" />
-        <ul class="how__list">
-          <li class="how__item">
-            <h3 class="how__title">How we work</h3>
+        <a class="footer__link-logo" href=""
+          ><svg class="footer__svg-logo" width="" height="">
+            <use href=""></use>
+          </svg>
+        </a>
+        <ul class="footer__list2">
+          <li class="footer__item2">
+            <a class="footer__link" href="">Service</a>
           </li>
-          <li class="how__item">
-            <p class="how__text">
-              We’ve actually already asked hundreds of women what they want, and
-              made a database with the results. All you have to do is take our
-              short survey that only takes seconds, and our proprietary
-              algorithm will match you with a few perfect gift options.
-            </p>
-          </li>
-          <li class="how__item">
-            <button class="how__button" type="button">Learn More</button>
+          <li class="footer__item2">
+            <a class="footer__link" href="">Blog</a>
           </li>
         </ul>
-      </div>
-    </section>
-    <section class="gift">
-      <div class="container">
-        <h3 class="gift__title">Gifts for all Occasions</h3>
-        <p class="gift__text">
-          “Try our web app to find the best gifts for all occasions”
-        </p>
-        <ul class="gift__list">
-          <li class="gift__item">
-            <img src="" alt="" class="gift__img" />
-            <p class="gift__text">Birthday</p>
-            <a href="" class="list__link">See More ›</a>
+        <div class="footer__line"></div>
+        <ul class="footer__list-social">
+          <li class="footer__item-social">
+            <svg class="" width="" height="">
+              <use href=""></use>
+            </svg>
           </li>
-          <li class="gift__item">
-            <img src="" alt="" class="gift__img" />
-            <p class="gift__text">Anniversary</p>
-            <a href="" class="gift__link">See More ›</a>
+          <li class="footer__item-social">
+            <svg class="" width="" height="">
+              <use href=""></use>
+            </svg>
           </li>
-          <li class="gift__item">
-            <img src="" alt="" class="gift__img" />
-            <p class="gift__text">Valentine's Day</p>
-            <a href="" class="gift__link">See More ›</a>
+          <li class="footer__item-social">
+            <svg class="" width="" height="">
+              <use href=""></use>
+            </svg>
           </li>
-          <li class="gift__item">
-            <img src="" alt="" class="gift__img" />
-            <p class="gift__text">Christmas</p>
-            <a href="" class="gift__link">See More ›</a>
+          <li class="footer__item-social">
+            <svg class="" width="" height="">
+              <use href=""></use>
+            </svg>
+          </li>
+          <li class="footer__item-social">
+            <svg class="footer__svg-social" width="" height="">
+              <use href=""></use>
+            </svg>
           </li>
         </ul>
-      </div>
-    </section>
-    <section class="ready">
-      <div class="container">
-        <ul class="ready__list">
-          <li class="ready__item">
-            <h2 class="ready__title">Ready to get started?</h2>
-            <p class="ready__text">Sign up or contact us</p>
-          </li>
-          <li class="ready__item">
-            <button class="ready__first-button" type="button">
-              Find gift now
-            </button>
-            <button class="ready__second-button" type="button">
-              how it works
-            </button>
-          </li>
+        <ul class="footer__list-copyright">
+          <li class="footer__item-copyright">© 2010 — 2020</li>
+          <li class="footer__item-copyright">Privacy — Terms</li>
         </ul>
       </div>
-    </section>
-    <section class="blog">
-      <div class="container">
-        <h3 class="blog__title"></h3>
-        <p class="blog__text"></p>
-        <ul class="blog__list">
-          <li class="blog__item">
-            <img class="blog__img" src="" alt="" />
-          </li>
-          <li class="blog__item">
-            <!-- ul.blog__list-text-container -->
-          </li>
-        </ul>
-      </div>
-    </section>
+    </footer>
   </body>
 </html>
