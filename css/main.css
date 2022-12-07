@@ -49,9 +49,46 @@ img {
   margin: 0 auto;
 }
 
-.header-button {
+.header__button {
   display: block;
+  margin: 0;
+  padding: 0;
+  background: none;
   margin-left: 371px;
+  min-width: 150px;
+  max-height: 44px;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  margin-top: 36px;
+}
+
+.header__button-text {
+  font-size: 18px;
+  line-height: 22px;
+  padding: 14px 25px 8px 24px;
+  text-transform: uppercase;
+  color: #f7941e;
+}
+
+.find__button {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background: none;
+  background: #f7941e;
+  border-radius: 5px;
+  width: 200px;
+  height: 60px;
+  margin: 0 359px 0 162px;
+  border: none;
+}
+
+.find__button-text {
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding: 23px 24px 12px 25px;
+  color: #ffffff;
 }
 
 .header__container {
@@ -77,4 +114,22 @@ img {
   margin-bottom: 38px;
   margin-left: 80px;
   display: block;
+}
+
+.find-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.find__title {
+  font-size: 56px;
+  line-height: 69px;
+  margin: 154px 126px 36px 162px;
+}
+
+.find__text {
+  font-size: 20px;
+  line-height: 140.62%;
+  margin: 0 137px 60px 162px;
 }
