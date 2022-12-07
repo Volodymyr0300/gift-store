@@ -1,0 +1,29 @@
+.ready {
+  background-color: #f7941e;
+}
+.ready__container {
+}
+.ready__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ready__item {
+  &:not(:last-child) {
+    margin-right: 229px;
+    padding-top: 81px;
+    padding-bottom: 69px;
+  }
+  &:not(:first-child) {
+    display: flex;
+    gap: 16px;
+  }
+}
+.ready__title {
+  font-size: 32px;
+  line-height: 140.62%;
+}
+.ready__text {
+  font-size: 32px;
+  line-height: 140.62%;
+}
